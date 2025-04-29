@@ -4,7 +4,7 @@
     "https://w3id.org/security/multikey/v1",
     "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
-  "id": "did:web:sashankg.github.io:dids",
+  "id": "did:web:sashankg.github.io",
   "service": [
     {
       "id": "#privi",
