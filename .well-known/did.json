@@ -8,7 +8,7 @@
   "service": [
     {
       "id": "#privi",
-      "serviceEndpoint": "http://localhost:3001",
+      "serviceEndpoint": "http://host.docker.internal:3001",
       "type": "PriviServer"
     }
   ]
