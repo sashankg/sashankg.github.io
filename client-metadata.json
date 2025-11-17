@@ -2,7 +2,7 @@
   "client_id": "https://sashankg.github.io/client-metadata.json",
   "client_name": "Camera app",
   "client_uri": "https://sashankg.github.io/client-metadata.json",
-  "redirect_uris": ["habitat.camera://oauth"],
+  "redirect_uris": ["habitat.camera://oauth", "exp://192.168.86.58:8081"],
   "scope": "",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
