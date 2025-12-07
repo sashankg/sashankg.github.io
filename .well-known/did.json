@@ -15,7 +15,7 @@
     {
       "controller": "did:web:sashankg.github.io",
       "id": "did:web:sashankg.github.io#atproto",
-      "publicKeyMultibase": "zQ3shXndP4Y7pGtQzWymQbQhWRSexYGaVHN6jUHHG4QYSN7vZ",
+      "publicKeyMultibase": "zQ3shmm4igrA7y4GCPaEwnmeAwdMBWfSvPGUtyh8eBHawCdrw",
       "type": "Multikey"
     }
   ]
