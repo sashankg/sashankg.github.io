@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:web:sashankg.github.io:habitat-integration",
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "serviceEndpoint": "https://pds.example.com",
+      "type": "AtprotoPersonalDataServer"
+    }
+  ],
+  "verificationMethod": [
+    {
+      "controller": "did:web:sashankg.github.io:habitat-integration",
+      "id": "did:web:sashankg.github.io:habitat-integration#atproto",
+      "publicKeyMultibase": "zQ3shXndP4Y7pGtQzWymQbQhWRSexYGaVHN6jUHHG4QYSN7vZ",
+      "type": "Multikey"
+    }
+  ]
+}
