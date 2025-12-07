@@ -7,7 +7,7 @@
   "service": [
     {
       "id": "#atproto_pds",
-      "serviceEndpoint": "https://pds.example.com",
+      "serviceEndpoint": "http://pds.example.com:3000",
       "type": "AtprotoPersonalDataServer"
     }
   ],
@@ -15,7 +15,7 @@
     {
       "controller": "did:web:sashankg.github.io",
       "id": "did:web:sashankg.github.io#atproto",
-      "publicKeyMultibase": "zQ3shmm4igrA7y4GCPaEwnmeAwdMBWfSvPGUtyh8eBHawCdrw",
+      "publicKeyMultibase": "zQ3shgU9HdsQW6PEv9kzPaUbLztQi3P9zSMADNCcL82W9tbY4",
       "type": "Multikey"
     }
   ]
