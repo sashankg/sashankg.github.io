@@ -4,6 +4,9 @@
     "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
   "id": "did:web:sashankg.github.io",
+  "alsoKnownAs": [
+    "at://handle.pds.example.com"
+  ],
   "service": [
     {
       "id": "#atproto_pds",
