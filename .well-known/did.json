@@ -5,7 +5,7 @@
   ],
   "id": "did:web:sashankg.github.io",
   "alsoKnownAs": [
-    "at://handle.pds.example.com"
+    "at://testuser.pds.example.com"
   ],
   "service": [
     {
