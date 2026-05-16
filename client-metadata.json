@@ -1,12 +1,33 @@
 {
+  "client_name": "Habitat",
   "client_id": "https://sashankg.github.io/client-metadata.json",
-  "client_name": "Camera app",
-  "client_uri": "https://sashankg.github.io/client-metadata.json",
-  "redirect_uris": ["habitat.camera://oauth", "exp://192.168.86.58:8081"],
-  "scope": "",
-  "grant_types": ["authorization_code", "refresh_token"],
-  "response_types": ["code"],
-  "token_endpoint_auth_method": "none",
+  "client_uri": "https://pear.local.habitat.network",
   "application_type": "web",
-  "dpop_bound_access_tokens": true
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "scope": "atproto transition:generic",
+  "response_types": [
+    "code"
+  ],
+  "redirect_uris": [
+    "https://pear.local.habitat.network/oauth-callback"
+  ],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "ES256",
+  "dpop_bound_access_tokens": true,
+  "jwks": {
+    "keys": [
+      {
+        "use": "sig",
+        "kty": "EC",
+        "kid": "habitat",
+        "crv": "P-256",
+        "alg": "ES256",
+        "x": "-sU5A3B-vFnOqVbJmNTUDmzVtzL_-KHnoLft5KsK28I",
+        "y": "6_S2oD66yIoBX9zs29_O7fgnoqMY-_F9TY_62HvbmjU"
+      }
+    ]
+  }
 }
